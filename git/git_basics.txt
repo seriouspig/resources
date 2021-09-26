@@ -44,6 +44,7 @@ git status                                              // Check current git sta
 
 git commit -m "initial commit"                          // Git commit
 git log                                                 // Git log 
+git log --oneline                                       // Git log simplified
 git show 4d73fb374c3b45e520c2db06d875ebf6e2ab6037       // See changes
 
 vi filename     press i to edit   esc :wq to exit       // Edit file fron terminal
