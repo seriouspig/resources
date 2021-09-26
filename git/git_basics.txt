@@ -111,5 +111,5 @@ git checkout -                                      // Checkout to the previous 
 git pull --rebase origin main
 git add .
 git rebase --continue
-git pull --rebase origin main                       // Rebase
+git push -f                     // forced push
 
