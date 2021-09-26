@@ -51,6 +51,20 @@ cat filename                                            // Show file content in 
 git diff                                                // shows differences between current directory and what was commited
 
 git restore                                             // Restore commit
+git commit --amend -m "new message"                     // amend last commit description
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+git remote add origin https://github.com/seriouspig/resources.git
+git branch -M main
+git push -u origin main
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+// SSH KEY SETUP (SECURE SHELL PROTOCOL KEY)
+
+ssh-keygen -t ed25519 -C "pigryko@yahoo.com"          // GENERATE SSH key
+eval "$(ssh-agent -s)"                                // Start the SSH agent in the background
+ssh-add -K ~/.ssh/id_ed25519                          // remove "-K" to avoid asking for authenticator
+cat ~/.ssh/id_ed25519.pub
+pbcopy < ~/.ssh/id_ed25519.pub      clip on Windows
