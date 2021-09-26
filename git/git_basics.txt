@@ -1,0 +1,46 @@
+GIT - Version Control System
+GITHUB - Hosting Platform
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+for Windows - GitBash / ot CMDIR
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+git --version                                           // Check the Git version
+git --help                                              // Help
+ctrl + l                                                // Clear the screen
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+git config --global user.name "Piotr"                   // Configure user name
+git config --global user.email "pigryko@yahoo.com"      // Configure user email
+git config --global color.ui auto                       // Configure UI color
+git config                                              // display commands
+git config -l                                           // check git configuration
+
+q                                                       // come out of current git command
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+ls --------- dir                                        // list or files / folders
+ls -a                                                   // list of files / folder including hidden
+rmdir                                                   // remove folder
+rm -rf .git                                             // remove git repository
+touch filename                                          // create file
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+git init .                                              // Initialize GIT repository
+git add filename                                        // Stage a file
+git add .                                               // Stage all files
+git add -a                                              // Stage files on all levels
+git rm --cached filename                                // Unstage
+git rm -r -cached .                                     // Unstage all files
+git rm -rf -cached .                                     // Unstage all files (forced)
+git status                                              // Check current git status
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
