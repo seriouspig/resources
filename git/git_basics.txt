@@ -37,10 +37,16 @@ git add .                                               // Stage all files
 git add -a                                              // Stage files on all levels
 git rm --cached filename                                // Unstage
 git rm -r -cached .                                     // Unstage all files
-git rm -rf -cached .                                     // Unstage all files (forced)
+git rm -rf -cached .                                    // Unstage all files (forced)
 git status                                              // Check current git status
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+git commit -m "initial commit"                          // Git commit
+git log                                                 // Git log 
+git show 4d73fb374c3b45e520c2db06d875ebf6e2ab6037       // See changes
 
+vi filename     press i to edit   esc :wq to exit       // Edit file fron terminal
+cat filename                                            // Show file content in terminal
+git diff                                                // shows differences between current directory and what was commited
 
