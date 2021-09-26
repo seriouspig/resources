@@ -95,3 +95,16 @@ git branch feature-a                                // Create new branch
 git checkout feature-a                              // Move to branch feature-a
 git checkout -                                      // Checkout to the previous branch
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+// GIT WORKFLOW
+
+1. PULL THE LATEST CHANGES FROM MASTER (FROM REMOTE REPOSITORY)
+2. CREATE A NEW BRANCH (git checkout -b branch-name)
+3. WORK ON THE FEATURE 
+4. REBASE THE MASTER - RESOLVE CONFLICTS
+5. STASH ONE COMMIT 
+6. PUSH TO MASTER AND DO PULL REQUEST
+
+// DEALING WITH CONFLICTS
+
