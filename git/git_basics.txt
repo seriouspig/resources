@@ -69,6 +69,7 @@ ssh-add -K ~/.ssh/id_ed25519                          // remove "-K" to avoid as
 cat ~/.ssh/id_ed25519.pub
 pbcopy < ~/.ssh/id_ed25519.pub      clip on Windows   // Copy to clipboard
 
+
 git checkout -b to-delete                             // Creates a branch and checks out to it in one command
 git branch -d to-delete                               // Delete a branch
 
@@ -77,3 +78,19 @@ git branch -d to-delete                               // Delete a branch
 // PULL REQUEST
 
 git merge feature-auto                                // Adding changhes from feature-a to main branch
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+git pull                                              // Pull latest changes from remote
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+// BRANCH - INDEPENDENT LINE OF DEVELOPMENT
+
+git branch                                          // Check the branch you are on
+git branch -r                                       // Check branches on remote server
+git branch -a                                       // Check all branches
+git branch feature-a                                // Create new branch
+git checkout feature-a                              // Move to branch feature-a
+git checkout -                                      // Checkout to the previous branch
+
