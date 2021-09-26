@@ -50,3 +50,7 @@ vi filename     press i to edit   esc :wq to exit       // Edit file fron termin
 cat filename                                            // Show file content in terminal
 git diff                                                // shows differences between current directory and what was commited
 
+git restore                                             // Restore commit
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
