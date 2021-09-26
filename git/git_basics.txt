@@ -108,3 +108,6 @@ git checkout -                                      // Checkout to the previous 
 
 // DEALING WITH CONFLICTS
 
+git pull --rebase origin main
+git rebase --continue
+
